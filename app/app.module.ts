@@ -2,10 +2,12 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }   from './app.component';
 import { KegListComponent } from './keglist.component';
+import { FormsModule }   from '@angular/forms';
+import { EditKegComponent } from './edit-keg.component';
 
 @NgModule({
-  imports: [BrowserModule],
-  declarations: [ AppComponent, KegListComponent ],
+  imports: [BrowserModule, FormsModule],
+  declarations: [ AppComponent, KegListComponent, EditKegComponent],
   bootstrap:    [ AppComponent ]
 })
 

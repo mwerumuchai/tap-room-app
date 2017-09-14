@@ -13,7 +13,7 @@ import { Keg } from './keg.model';
     <option value="stout">Stout Kegs</option>
     <option value="ale">Ale Kegs</option>
     <option value="ipa">IPA Kegs</option>
-    <option value="ale">Ale Kegs</option>
+    <option value="porter">Porter Kegs</option>
     <option value="kombucha">Kombucha Kegs</option>
     <option value="allKegs">All Kegs</option>
   </select>
