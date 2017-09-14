@@ -7,6 +7,8 @@ import { Keg } from './keg.model';
   <div class="container">
     <h1>Welcome to Keg Bar</h1>
     <keg-list [kegs]="kegs" (clickSender)="selectKeg($event)"></keg-list>
+    <edit-keg [selectedKeg]='selectedKeg' (clickSender)="finishedEditing()"></edit-keg>
+    <new-keg (newKegSender)="newKeg($event)"></new-keg>
   </div>
   `
 })
